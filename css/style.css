@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1"
+
+html{
+    background-color: forestgreen;
+}
+
+body{
+    background-color: darkseagreen;
+    
+}
+
+.navigation {
+background-color: #00004d;
+color: #FFFFFF;
+
+    
+}
+
+.navigation a:link {
+color: floralwhite;
+    
+}
+
+.navigation a:visited {
+color: floralwhite;
+}
+
+.data{
+font-style: italic;
+    font: 50px arial, sans-serif;
+}
+
+.info{
+font-style: italic;
+    font: 30px Verdana, sans-serif;
+}
+
+#aboutme{
+    font: 40px arial, sans-serif;
+}
+
+#project{
+    font: 40px arial, sans-serif;
+}
+
+.footer{
+    
+}
