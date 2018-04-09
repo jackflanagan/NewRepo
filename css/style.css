@@ -5,13 +5,21 @@ html{
 }
 
 body{
-    background-color: darkseagreen;
+
+background-image: url(back.png);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: azure;
+    height: 1000px;
+    width: 1000px;
     
 }
 
 .navigation {
-background-color: #00004d;
-color: #FFFFFF;
+background-color: aliceblue;
+    background-image: linear-gradient(#003366,#33cccc);
+    word-spacing: 40px;
 
     
 }
@@ -40,9 +48,18 @@ font-style: italic;
 }
 
 #project{
+    
     font: 40px arial, sans-serif;
 }
 
-.footer{
-    
+#subhead{
+    background-color: azure;
+    font-style: italic;
+    font: 40px Verdana, sans-serif;
+}
+
+#text{
+    background-color: azure;
+    font-style: italic;
+    font: 30px arial, sans-serif;
 }
