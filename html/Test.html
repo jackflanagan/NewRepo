@@ -1,0 +1,137 @@
+<html>
+    <head>
+        
+<!-- This is where you include the css and javascript -->
+        
+    <script src="../js/FirstScript.js"></script>
+    <link href="../css/style.css" rel="stylesheet"
+          type="text/css"/>
+
+        
+    </head>
+    
+    
+<body>
+    
+<!-- This field is used to hosts the counter/age object being added -->
+    
+    <p id="text">
+        <script>
+           
+        </script>
+    </p>
+    
+    <!-- Displaying data on page, window and console -->
+    
+    <script>
+
+var number = 3;
+
+window.alert(number);
+document.write(number);
+console.log(number);
+    
+    </script>
+    
+    
+    
+    <!-- Square function -->
+    
+    <script>
+document.write(squareFunction(5)); 
+    </script>
+    
+    <!-- Adding function -->
+    
+    <div class="add">
+        <script>
+document.write(AddingFunction(5,5,5));
+
+        </script>
+    </div>
+    
+    
+    
+<!-- Printing out object data -->
+    
+    
+    
+    <div class="try">
+        <script>
+
+    <!-- document.write(Person.name, "  ", Person.age, "  ", Person.occupation); -->
+    var x = Person.age;
+    var n = Person.name;
+    var o = Person.occupation;
+    document.write(x,n,o);
+
+        </script>
+    </div>
+    
+    
+    
+    
+    <!-- Buttons relating to clickEvent and IncreaseEvent  -->
+    
+   
+    <input type="button" id="btnClick" value="press" onclick="clickEvent();"/>
+    <input type="button" id="increaseAge" value="Increase" onclick="increaseEvent()"/>
+    
+    <!-- Printing Strings -->
+    
+    <p id="sentence">
+       <script>
+         printSentence();
+        </script>
+    </p>
+    
+    <p id="sentence1">
+       <script>
+         printCapsSentence();
+        </script>
+    </p>
+    
+    <!-- Converting String to number and adding -->
+    
+    <p id="sentence2">
+       <script>
+         addingStringtoNumber();
+        </script>
+    </p>
+    
+    <!-- Creation of array, including buttons for functionality -->
+    
+    <p id="sentence3">
+       <script>
+         createArray();
+        </script>
+    </p>
+    
+    <p id="sentence4">
+       <script>
+         
+        </script>
+    </p>
+    
+    
+    
+    <input type="button" id="addtoArray" value="addtoArray" onclick="addingArrays()"/>
+    <input type="button" id="deleteFromArray" value="deleteFromArray" onclick="deleteArrays(3)"/>
+
+
+    
+</body>
+</html>
+
+<!-- JS to create window alert -->
+
+<script type="text/javascript">
+    
+     document.getElementById("btnClick").onclick = clickEvent;
+    function clickEvent(){
+       
+         
+        window.alert('hi');
+    };
+    
+</script>
