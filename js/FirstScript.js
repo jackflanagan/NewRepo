@@ -69,6 +69,16 @@ function deleteArrays(element){
     
     document.getElementById("sentence3").innerHTML = myList;
     
-    
+}
+
+
+                                                                       // checking age function 
+function checkAge() {
+    if(Person.age > 20 && Person.age < 40){
+       
+        console.log("required age");
+       } else{
+           console.log("incorrect");
+       }
 }
 
