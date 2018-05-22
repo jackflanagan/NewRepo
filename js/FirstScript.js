@@ -82,3 +82,40 @@ function checkAge() {
        }
 }
 
+function mapFunction(){
+    var array1 = [1,2,3];
+    array1 = array1.map(number => number * 10);
+    console.log(array1);
+}
+
+function filterFunction(){
+
+     var array1 = [1,0,3];
+    array1 = array1.filter(number => number * 10);
+    console.log(array1);
+
+}
+
+function fizzBuzz(){
+var array2 = new Array(100);
+for(var i =0; i<100; i++){
+array2[i] = i + 1;
+}
+for(var i =0; i<array2.length; i++){
+    var skip =0;
+    if(i % 3 == 0){
+        console.log('fizz');
+        skip =1;
+    }
+
+
+    if(i % 5 == 0){
+        console.log('buzz');
+        skip =1;
+    }
+    if(!skip){
+        console.log(i);
+    }
+}
+
+}
